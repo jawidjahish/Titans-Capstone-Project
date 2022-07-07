@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-06T07:29:09.581Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3079806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User empty Shopping cart message displays",
+        "description": "",
+        "id": "home-page;user-empty-shopping-cart-message-displays",
+        "after": [
+          {
+            "result": {
+              "duration": 87320000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19928000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "stepDef.DesktopStepDef.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45406000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on shopping cart",
+            "match": {
+              "location": "stepDef.HomePageStepDef.user_clicked_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 512765000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\u0027Your shopping cart is empty!\u0027 message should display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Your shopping cart is empty!\u0027",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDef.HomePageStepDef.message_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunTime"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/HomePage.feature",
+    "tags": []
+  }
+]
